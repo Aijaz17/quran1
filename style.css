@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.title {
+    font-family: 'Great Vibes';
+    font-size: larger;
+}
+
+.title a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.headicon {
+    font-size: 22px;
+
+}
+
+.fa-solid,
+.fa-regular {
+    padding-right: 10px;
+    color: #f2f2f2
+}
+
+.fa-solid,
+.fa-regular:hover {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    /* background-color: rgba(12, 142, 147, 0.926); */
+    /* background: rgb(4,70,68); */
+    background: radial-gradient(circle, rgba(4, 70, 68, 1) 3%, rgba(9, 121, 107, 0.9415966215587798) 57%, rgba(3, 79, 70, 1) 95%);
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: larger;
+    color: rgb(4, 86, 83);
+    font-weight: 800;
+    border-bottom: 2px solid #f2f2f2;
+    transition: border .8s ease-in-out;
+}
+
+/* .menu ul li a{
+    
+    
+} */
+.menu li {
+    display: inline;
+    text-align: center;
+    /* padding: 0 10px; */
+    margin: 0 20px;
+
+}
+
+.menu li a:hover {
+
+    border-bottom: 2px solid rgb(4, 86, 83);
+
+}
+
+.menu {
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: none;
+}
+
+/* .hero {
+    text-align: center;
+    background-color: black;
+}
+.hero img{
+    width: 300px;
+    height: 300px;
+}
+.heading h1{
+    text-transform: capitalize;
+    color:rgb(4, 86, 83) ;
+    font-family: 'Alegreya', serif;
+    word-spacing: 4px;
+    padding-bottom:30px;
+    font-size: 40px;
+}
+.heading p{
+    font-size: large;
+    line-height: 30px;
+    font-family: 'Alegreya', serif;
+    word-spacing: 4px;
+}
+.history-img img{
+    width: 100%;
+    height: 100%;
+}
+.history{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    grid-column-gap:50px ;
+    padding: 30px 60px;
+}
+.history-btn{
+    background-color:rgb(4, 86, 83) ;
+    padding: 10px 20px;
+    font-family: 'Alegreya', serif;
+    outline: none;
+    border: 2px solid rgb(4, 86, 83);
+    font-size: large;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+.history-btn a{
+    text-decoration: none;
+    color:white;
+}
+.name{
+    text-transform: capitalize;
+    color:rgb(4, 86, 83) ;
+    font-family: 'Alegreya', serif;
+    word-spacing: 4px;
+    padding:20px 0;
+    font-size: 40px;
+    width: 90%;
+    margin: auto;
+}
+.card{
+    border: 2px solid rgb(4, 86, 83);
+    border-radius: 20px;
+    text-align: center;
+}
+.card img{
+    width: 80%;
+    height: 200px;
+}
+.surah{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    grid-gap:20px ;
+    width: 90%;
+    margin: auto;
+}
+
+.surah-btn{
+    width: 150px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    background-color:rgb(4, 86, 83) ;
+    font-family: 'Alegreya', serif;
+    outline: none;
+    border: 2px solid rgb(4, 86, 83);
+    font-size: large;
+    text-transform: capitalize;
+    margin: 15px 45%;
+}
+
+.surah-btn a{
+    text-decoration: none;
+    color:white;
+}
+
+.surah-btn:hover {
+    border: 2px solid rgb(4, 86, 83);
+    background-color: white;
+}
+
+.surah-btn:hover a{
+    color: rgb(4, 86, 83);
+}
+.produst-box1 img{
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid rgb(4, 86, 83);
+}
+.products img{
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid rgb(4, 86, 83);
+}
+
+.produst-box2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.product-sec{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    grid-gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+.aboutus{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    width: 90%;
+    margin: auto;
+    justify-content:space-around;
+    line-height: 30px;
+}
+.about2 li{
+    text-transform: capitalize;
+    list-style-type: none;
+}
+.about2 a{
+    text-decoration: none;
+    
+    color: rgb(229, 231, 126);
+
+}
+.about2 a:hover{
+    border-bottom: 2px solid rgb(229, 231, 126);
+}
+.about-sec{
+    background-color: black;
+    color: rgb(229, 231, 126);
+    padding: 20px 0;
+    font-family: 'Alegreya', serif;
+} */
+
+.surah-num {
+    background-color: rgba(220, 222, 221, 0.942);
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transform: rotate(45deg);
+    border-radius: 5px;
+}
+
+.digits {
+    transform: rotate(-45deg);
+    /* font-family: 'Alegreya', serif; */
+}
+
+.surah-img img {
+    width: 70px;
+}
+.surah-img{
+    text-align: center;
+}
+
+.surah-card p {
+    font-size: larger;
+    color: rgb(102, 102, 101);
+}
+
+.surah-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px ;
+    border: 2px solid rgb(102, 102, 101);
+    border-radius: 5px;
+}
+
+.surah-name {
+    padding:0 15px;
+    line-height: 30px;
+}
+.surah-flex{
+    display: flex;
+    align-items: center;
+    
+}
+.surah-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    grid-gap: 15px;
+    
+    width: 90%;
+    margin: 20px auto;
+}
+.foot {
+    font-size: 30px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.foot i {
+    padding: 0 5px;
+}
+
+.span {
+    width: 90%;
+    margin: auto;
+    word-spacing: 4px;
+    padding-top: 20px;
+    font-size: large;
+}
+
+.space {
+    padding: 0 22%;
+
+}
+
+footer {
+    background: radial-gradient(circle, rgba(4, 70, 68, 1) 3%, rgba(9, 121, 107, 0.9415966215587798) 57%, rgba(3, 79, 70, 1) 95%);
+    color: #f2f2f2;
+    padding: 15px 0;
+
+}
