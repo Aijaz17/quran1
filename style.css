@@ -2,8 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
     /* font-family: 'Courier New', Courier, monospace; */
 }
+a{
+    color: black;
+}
+.surah-card:hover{
+    border: 2px solid  rgb(44, 164, 171);
+}
+
 
 .title {
     font-family: 'Great Vibes';
@@ -33,6 +41,7 @@
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 10px 5%;
@@ -76,7 +85,6 @@ header {
     padding: 20px;
     display: none;
 }
-
 /* .hero {
     text-align: center;
     background-color: black;
@@ -230,6 +238,7 @@ header {
     font-family: 'Alegreya', serif;
 } */
 
+
 .surah-num {
     background-color: rgba(220, 222, 221, 0.942);
     padding: 10px;
@@ -239,7 +248,18 @@ header {
     transform: rotate(45deg);
     border-radius: 5px;
 }
-
+/* .surah-num:hover{
+ 
+} */
+a:hover .surah-num {
+    background-color: rgb(44, 164, 171);
+}
+a:hover .surah-card p {
+    color: rgb(44, 164, 171);
+}
+a:hover .digits {
+    color:white;
+}
 .digits {
     transform: rotate(-45deg);
     /* font-family: 'Alegreya', serif; */
@@ -277,11 +297,29 @@ header {
 }
 .surah-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
     grid-gap: 15px;
     
-    width: 90%;
-    margin: 20px auto;
+    width:100%;
+    /* margin: 20px auto; */
+    padding: 20px 5% ;
+}
+@media(max-width:368px){
+    .surah-container{
+        grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    }
+    .title{
+        width: 100%;
+        text-align: center;
+    }
+    .headicon{
+        line-height: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .headicon i{
+        margin: 0px 10px;
+    }
 }
 .foot {
     font-size: 30px;
